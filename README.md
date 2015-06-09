@@ -52,15 +52,15 @@ Once the Vagrant box finishes and is ready, you should see something like this i
 ==> default:
 ==> default: Lucee Server/Web Context Administrators
 ==> default:
-==> default: http://www.lucee.dev/lucee/admin/server.cfm
-==> default: http://www.lucee.dev/lucee/admin/web.cfm
+==> default: http://www.lucee.dev:8888/lucee/admin/server.cfm
+==> default: http://www.lucee.dev:8888/lucee/admin/web.cfm
 ==> default:
 ==> default: Password (for each admin): password
 ==> default:
 ==> default:
 ==> default: Webmin
 ==> default: " "
-==> default: http://www.lucee.dev:10000
+==> default: https://www.lucee.dev:10000
 ==> default: User: root
 ==> default: Password: vagrant
 ==> default: " "
