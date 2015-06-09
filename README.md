@@ -82,9 +82,9 @@ or [http://192.168.50.25/](http://192.168.50.25/)
 **NOTE**
 * On Windows (host machines) you should run your terminal as an Administrator; you will also need to make sure your Hosts file isn't set to read-only if you want to take advantage of the hostname functionality. Alternatively, simply use the IP address anywhere you would use the hostname (connecting to database server, etc).
 * The VM is configured to share a "Sites" folder from your computer into the webroot of the VM at /var/www/sites. This is where you should check out each repository
-	* Windows: C:\Users\<username>\Sites
-	* Mac: /Users/<username>/Sites
-	* Linux: /home/<username>/Sites
+	* Windows: C:\Users\&lt;username&gt;\Sites
+	* Mac: /Users/&lt;username&gt;/Sites
+	* Linux: /home/&lt;username&gt;/Sites
 
 ---
 
