@@ -96,7 +96,7 @@ Thanks to Mike Sprague for his work on the Ubuntu version which this project use
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2015 Mike Sprague
+Copyright (c) 2015 Dan Skaggs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
