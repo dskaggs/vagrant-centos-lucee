@@ -7,9 +7,9 @@ echo "Doing some last minute cleanup ..."
 # some final housekeeping
 yum update > /dev/null
 
-rm /root/*.run > /dev/null
-rm /root/lucee-options.txt > /dev/null
-rm /root/jcameron-key.asc > /dev/null
+sudo rm /root/*.run > /dev/null
+sudo rm /root/lucee-options.txt > /dev/null
+sudo rm /root/jcameron-key.asc > /dev/null
 
 # disable iptables
 /etc/init.d/iptables save
