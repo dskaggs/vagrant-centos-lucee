@@ -19,7 +19,7 @@ db_mariadb_version = "5.1.73"
 db_root_password = "password"
 
 # synced folder configuration
-synced_webroot_local = "~/Sites/"
+synced_webroot_local = "www"
 synced_webroot_box = "/var/www/sites/"
 synced_webroot_id = "vagrant-webroot"
 synced_webroot_owner = "vagrant"

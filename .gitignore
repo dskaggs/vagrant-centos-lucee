@@ -158,3 +158,5 @@ sftp-config.json
 .vagrant/
 
 vagrantroot/data/*.sql
+
+WEB-INF
