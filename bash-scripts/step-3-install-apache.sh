@@ -12,7 +12,7 @@ fi
 
 echo "... Configuring apache ..."
 # copy our modified apache config files
-# cp /vagrant/configs/httpd.conf /etc/httpd/conf
+cp /vagrant/configs/httpd.conf /etc/httpd/conf
 
 # restart apache
 service httpd restart > /dev/null
