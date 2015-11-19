@@ -6,7 +6,8 @@ echo "BEGIN Database server setup ..."
 
 if [ ! -d "/var/lib/mysql" ]; then
 	echo "... Installing MySQL Server ..."
-		sudo yum install mysql-server -y > /dev/null
+	rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
+	sudo yum install mysql55w mysql55w-server -y > /dev/null
 
 	# make mysql available to connect to from outside world without ssh tunnel
 	# copy file with above changes and the lower_case_table_names = 1 flag set to
