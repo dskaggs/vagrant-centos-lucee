@@ -6,6 +6,7 @@ echo "BEGIN Database server setup ..."
 
 if [ ! -d "/var/lib/mysql" ]; then
 	echo "... Installing MySQL Server ..."
+	yum remove mysql mysql-* -y
 	rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 	sudo yum install mysql55w mysql55w-server -y > /dev/null
 
