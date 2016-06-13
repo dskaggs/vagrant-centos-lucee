@@ -10,7 +10,7 @@ vm_timezone  = "US/Eastern"
 vm_current_version = "v0.2.0"
 vm_name = "Lucee-Dev-#{vm_current_version}"
 vm_max_memory = 4096
-vm_num_cpus = 2
+vm_num_cpus = 1
 vm_max_host_cpu_cap = "30"
 
 # database configuration
