@@ -1,3 +1,5 @@
+***THIS PROJECT IS NO LONGER BEING MAINTAINED. Please refer to https://github.com/Ortus-Solutions/vagrant-centos-lucee for an updated/maintained version***
+
 # Vagrant Lucee Development VM (CentOS / Apache / MySQL / Tomcat / Lucee)
 Vagrant box for local development with CFML and Java
 
